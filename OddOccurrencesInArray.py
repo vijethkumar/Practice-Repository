@@ -10,5 +10,6 @@ vijeth_values = []
 for key,values in vijeth.items():
     vijeth_keys.append(key)
     vijeth_values.append(values)
+# vi = vijeth_values.index(1)
 print(vijeth_keys[vijeth_values.index(1)])
 
